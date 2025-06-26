@@ -1,0 +1,135 @@
+.home-bg-container {
+    width: 1920px;
+    height: 1080px;
+    background-color: #FFFFFF;
+}
+
+.home-container {
+    width: 1723.45px;
+    height: 457px;
+}
+
+.icons-container {
+    width: 36px;
+    height: 321px;
+}
+
+.icon-container {
+    width: 33.777198791503906px;
+    height: 33.79666519165039px;
+    border-radius: 50%;
+    border: 1px #000000 solid;
+}
+
+.social-icon {
+    width: 10.966174125671387px;
+    height: 19.830833435058594px;
+    color: #000000;
+}
+
+.portfolio-details-container {
+    width: 624px;
+    height: 409px;
+    margin-left: 121px;
+}
+
+.greetings-container {
+    width: 197px;
+    height: 72px;
+    background-image: linear-gradient(to right, #32F6F6, #A6A79F);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.greetings-text {
+    color: #FFFFFF;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.portfolio-title {
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.portfolio-name {
+    color: #837c7c;
+    font-weight: 700;
+    border-bottom: 5px #000000 solid;
+}
+
+.hand-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.portfolio-description {
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.buttons-container {
+    width: 375px;
+    height: 60.000003814697266px;
+    top: 649px;
+    left: 269px;
+    border-radius: 10px;
+}
+
+.download-buttton {
+    width: 175px;
+    height: 60px;
+    background-image: linear-gradient(to right, #DF580C, #FD993D);
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px #FFFFFF solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.touch-button {
+    width: 175px;
+    height: 60.000003814697266px;
+    background-image: linear-gradient(to right, #434343, #000000);
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.protfolio-img-container {
+    width: 719.44921875px;
+    height: 712.418212890625px;
+    background-color: #FFF500;
+    box-shadow: 0px 25px 50px 0px #00000040;
+    position: absolute;
+    width: 500;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 800px;
+    margin-left: 376px;
+}
