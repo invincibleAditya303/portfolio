@@ -1,0 +1,50 @@
+.portfolio-email-container {
+    width: 30px;
+    height: 266.75px;
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    backface-visibility: hidden;
+    margin-left: auto;
+}
+
+@media (width < 776px) {
+    .portfolio-email-container {
+        width: 60px;
+        height: 30px;
+        transform: rotate(0deg);
+        margin-left: 0px;
+    }
+}
+
+.portfolio-email-container::after {
+    content: "";
+    width: 100%;
+    bottom: 100%;
+    height: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: 5px solid #000000;
+    transform-origin: bottom left;
+    transform: translateX(-100%) rotate(90deg);
+}
+
+.portfolio-email {
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+@media (width < 776px) {
+    .portfolio-email {
+        vertical-align: 0%;
+    }
+}
+
+.dark-theme-email-text {
+    color: #FFFFFF;
+}

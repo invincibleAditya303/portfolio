@@ -1,3 +1,19 @@
+# My React Portfolio
+
+A personal portfolio website built with React, showcasing design skills and animated hero section based on a Figma mockup.
+
+## Table of Contents
+- [About](#about)
+
+## About
+Contains the portfolio description of the person.
+
+# Steps Implemented
+Used React Route for Navigation within the application.
+Designed Header component common for both the sections.
+Implemented context for dark-theme.
+Used media queries and Bootstrap for responsive design.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

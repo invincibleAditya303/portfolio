@@ -1,0 +1,12 @@
+.blob-mask {
+    width: 626px;
+    height: 645px;
+    position: absolute;
+}
+
+@media (width < 776px) {
+    .blob-mask {
+        width: 30vw;
+        height: 30vh;
+    }
+}

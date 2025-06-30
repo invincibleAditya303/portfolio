@@ -1,0 +1,53 @@
+.icons-container {
+    width: 100%;
+    height: 100%;
+}
+
+@media (width < 776px) {
+    .icons-container {
+        width: 50vw;
+        height: 5vh;
+        justify-content: space-between;
+    }
+}
+
+.icon-container {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px #000000 solid;
+    margin-bottom: 15px;
+}
+
+@media (width <776px) {
+    .icon-container {
+        width: 5vw;
+        height: 5vh;
+        margin-bottom: 0;
+    }
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    color: #000000;
+}
+
+@media (width < 776px) {
+    .social-icon {
+        width: 3vw;
+        height: 3vh;
+    }
+}
+
+.social-icon-last {
+    margin-bottom: 0px;
+}
+
+.dark-theme-icon-border {
+    border: 1px #FFFFFF solid;
+}
+
+.dak-theme-icon-color {
+    color: #FFFFFF;
+}

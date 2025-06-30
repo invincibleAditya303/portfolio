@@ -1,0 +1,85 @@
+.header-container {
+    width: 1699px;
+    height: 40px;
+}
+
+@media (width < 776px) {
+    .header-container {
+        width: 100vw;
+        height: 8vh;
+    }
+}
+
+.header-logo-container {
+    width: 323px;
+    height: 100%;
+    margin-left: 112px;
+}
+
+@media (width < 776px) {
+    .header-logo-container {
+        width: 25vw;
+        height: 100%;
+        margin-left: 0px;
+    }
+}
+
+.header-portfolio-name {
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+@media (width < 776px) {
+    .header-portfolio-name {
+        font-size: 12px;
+    }
+} 
+
+.header-links-container {
+    width: 660px;
+    height: 100%;
+    margin-left: auto;
+}
+
+@media (width < 776px) {
+    .header-links-container {
+        width: 70vw;
+        height: 100%;
+    }
+}
+
+.link-button {
+    width: 57px;
+    height: 29px;
+    background-color: transparent;
+    color: #000000;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-width: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+@media (width < 776px) {
+    .link-button {
+        width: 5vw;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+
+.theme-button {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.dark-theme-header-text {
+    color: #FFFFFF;
+}
